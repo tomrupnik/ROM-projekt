@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     69203,       1469]
-NotebookOptionsPosition[     67554,       1433]
-NotebookOutlinePosition[     67951,       1449]
-CellTagsIndexPosition[     67908,       1446]
+NotebookDataLength[    126914,       2680]
+NotebookOptionsPosition[    124027,       2623]
+NotebookOutlinePosition[    124424,       2639]
+CellTagsIndexPosition[    124381,       2636]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -50,20 +50,39 @@ Cell[BoxData[
   ";"}]], "Input",
  CellChangeTimes->{{3.826598491889378*^9, 3.8265985392283497`*^9}},
  CellLabel->
-  "In[141]:=",ExpressionUUID->"20a2f016-17a1-4239-8d89-f31608aa651d"]
-}, Closed]],
+  "In[170]:=",ExpressionUUID->"20a2f016-17a1-4239-8d89-f31608aa651d"]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["\<\
-Analiza podatkov v Nigeriji, Kongu, Tanzaniji in Burkini Fasi\
+Prikaz podatkov nekaterih dr\[ZHacek]av v Afriki, Aziji in Ju\[ZHacek]ni \
+Ameriki\
 \>", "Section",
  CellChangeTimes->{{3.826600745276802*^9, 3.826600757673489*^9}, {
   3.8266008486297607`*^9, 3.826600849895583*^9}, {3.826600907119426*^9, 
   3.826600939597507*^9}, {3.826705587410121*^9, 3.826705588992887*^9}, {
   3.8267056318005342`*^9, 3.8267056332561693`*^9}, {3.826705703623949*^9, 
-  3.8267057306396933`*^9}},ExpressionUUID->"89978763-c4de-4ce5-a548-\
+  3.8267057306396933`*^9}, {3.8273053582058687`*^9, 
+  3.8273054438092737`*^9}},ExpressionUUID->"89978763-c4de-4ce5-a548-\
 4f68d981ea2c"],
+
+Cell["\<\
+Naslednje dr\[ZHacek]ave sem si izbral, saj so to bile po podatkih dobljenih \
+predvsem na spletnih straneh organizacije WHO dr\[ZHacek]ave z \
+najve\[CHacek]jo umrljivostjo po kontinentih.\
+\>", "Text",
+ CellChangeTimes->{{3.827306100027656*^9, 3.827306159828456*^9}, {
+  3.827306190835957*^9, 3.827306248048805*^9}, {3.827306306030259*^9, 
+  3.827306320717835*^9}},ExpressionUUID->"ddfb67cb-948e-4e51-a3f6-\
+b259271324e8"],
+
+Cell[CellGroupData[{
+
+Cell["Afrika", "Subsection",
+ CellChangeTimes->{{3.827305451631365*^9, 
+  3.827305455083194*^9}},ExpressionUUID->"411b4fbd-7157-4b6e-90e6-\
+8ce16eb2b507"],
 
 Cell["\<\
 Te dr\[ZHacek]ave sem si izbral, saj se tam zgodi skoraj 50% vseh smrtnih \
@@ -76,194 +95,9 @@ primerov zaradi malarije na svetovni ravni.\
   3.8267057710685987`*^9}},ExpressionUUID->"0bfbaebc-d810-4257-890e-\
 ca4cf3b49d1e"],
 
-Cell[TextData[Cell[BoxData[{
- RowBox[{
-  RowBox[{"nigerijaPodatki", " ", "=", " ", 
-   RowBox[{
-    RowBox[{"Select", "[", 
-     RowBox[{"podatki", ",", " ", 
-      RowBox[{
-       RowBox[{
-        RowBox[{"#", "[", "\"\<Country\>\"", "]"}], "\[Equal]", " ", 
-        NamespaceBox["LinguisticAssistant",
-         DynamicModuleBox[{Typeset`query$$ = "Nigeria", Typeset`boxes$$ = 
-          TemplateBox[{"\"Nigeria\"", 
-            RowBox[{"Entity", "[", 
-              RowBox[{"\"Country\"", ",", "\"Nigeria\""}], "]"}], 
-            "\"Entity[\\\"Country\\\", \\\"Nigeria\\\"]\"", "\"country\""}, 
-           "Entity"], Typeset`allassumptions$$ = {}, 
-          Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
-          Typeset`querystate$$ = {
-          "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
-           0.991932`6.448026894443495, "Messages" -> {}}}, 
-          DynamicBox[ToBoxes[
-            AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
-             Dynamic[Typeset`query$$], 
-             Dynamic[Typeset`boxes$$], 
-             Dynamic[Typeset`allassumptions$$], 
-             Dynamic[Typeset`assumptions$$], 
-             Dynamic[Typeset`open$$], 
-             Dynamic[Typeset`querystate$$]], StandardForm],
-           ImageSizeCache->{78., {7., 16.}},
-           
-           TrackedSymbols:>{
-            Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
-             Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
-          DynamicModuleValues:>{},
-          UndoTrackedVariables:>{Typeset`open$$}],
-         BaseStyle->{"Deploy"},
-         DeleteWithContents->True,
-         Editable->False,
-         SelectWithContents->True]}], "&"}]}], "]"}], "[", 
-    RowBox[{"[", "1", "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"kongoPodatki", " ", "=", " ", 
-   RowBox[{
-    RowBox[{"Select", "[", 
-     RowBox[{"podatki", ",", " ", 
-      RowBox[{
-       RowBox[{
-        RowBox[{"#", "[", "\"\<Country\>\"", "]"}], "\[Equal]", " ", 
-        NamespaceBox["LinguisticAssistant",
-         DynamicModuleBox[{Typeset`query$$ = 
-          "Democratic Republic of the Congo", Typeset`boxes$$ = 
-          TemplateBox[{"\"Democratic Republic of the Congo\"", 
-            RowBox[{"Entity", "[", 
-              RowBox[{"\"Country\"", ",", "\"DemocraticRepublicCongo\""}], 
-              "]"}], "\"Entity[\\\"Country\\\", \\\"DemocraticRepublicCongo\\\
-\"]\"", "\"country\""}, "Entity"], 
-          Typeset`allassumptions$$ = {{
-           "type" -> "SubCategory", "word" -> 
-            "Democratic Republic of the Congo", "template" -> 
-            "Assuming Democratic Republic of the Congo${separator}Use ${desc} \
-instead", "count" -> "2", "pulldown" -> "false", "default" -> 
-            "{\"DPClash\", \"CountryE\", \"Democratic Republic of the \
-Congo\"} -> {\"DemocraticRepublicCongo\", \"dflt\"}", 
-            "Values" -> {{
-              "name" -> "DemocraticRepublicCongo", "desc" -> 
-               "Democratic Republic of the Congo", "input" -> 
-               "{\"DPClash\", \"CountryE\", \"Democratic Republic of the \
-Congo\"} -> {\"DemocraticRepublicCongo\"}"}, {
-              "name" -> "RepublicCongo", "desc" -> "Republic of the Congo", 
-               "input" -> 
-               "{\"DPClash\", \"CountryE\", \"Democratic Republic of the \
-Congo\"} -> {\"RepublicCongo\"}"}}}}, Typeset`assumptions$$ = {}, 
-          Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
-          "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
-           1.070402`6.481091905380999, "Messages" -> {}}}, 
-          DynamicBox[ToBoxes[
-            AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
-             Dynamic[Typeset`query$$], 
-             Dynamic[Typeset`boxes$$], 
-             Dynamic[Typeset`allassumptions$$], 
-             Dynamic[Typeset`assumptions$$], 
-             Dynamic[Typeset`open$$], 
-             Dynamic[Typeset`querystate$$]], StandardForm],
-           ImageSizeCache->{283., {7., 16.}},
-           
-           TrackedSymbols:>{
-            Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
-             Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
-          DynamicModuleValues:>{},
-          UndoTrackedVariables:>{Typeset`open$$}],
-         BaseStyle->{"Deploy"},
-         DeleteWithContents->True,
-         Editable->False,
-         SelectWithContents->True]}], "&"}]}], "]"}], "[", 
-    RowBox[{"[", "1", "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"tanzanijaPodatki", " ", "=", " ", 
-   RowBox[{
-    RowBox[{"Select", "[", 
-     RowBox[{"podatki", ",", " ", 
-      RowBox[{
-       RowBox[{
-        RowBox[{"#", "[", "\"\<Country\>\"", "]"}], "\[Equal]", " ", 
-        NamespaceBox["LinguisticAssistant",
-         DynamicModuleBox[{Typeset`query$$ = "United Republic of Tanzania", 
-          Typeset`boxes$$ = TemplateBox[{"\"Tanzania\"", 
-            RowBox[{"Entity", "[", 
-              RowBox[{"\"Country\"", ",", "\"Tanzania\""}], "]"}], 
-            "\"Entity[\\\"Country\\\", \\\"Tanzania\\\"]\"", "\"country\""}, 
-           "Entity"], Typeset`allassumptions$$ = {}, 
-          Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
-          Typeset`querystate$$ = {
-          "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
-           0.987612`6.446131351691997, "Messages" -> {}}}, 
-          DynamicBox[ToBoxes[
-            AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
-             Dynamic[Typeset`query$$], 
-             Dynamic[Typeset`boxes$$], 
-             Dynamic[Typeset`allassumptions$$], 
-             Dynamic[Typeset`assumptions$$], 
-             Dynamic[Typeset`open$$], 
-             Dynamic[Typeset`querystate$$]], StandardForm],
-           ImageSizeCache->{92., {7., 16.}},
-           
-           TrackedSymbols:>{
-            Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
-             Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
-          DynamicModuleValues:>{},
-          UndoTrackedVariables:>{Typeset`open$$}],
-         BaseStyle->{"Deploy"},
-         DeleteWithContents->True,
-         Editable->False,
-         SelectWithContents->True]}], "&"}]}], "]"}], "[", 
-    RowBox[{"[", "1", "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"burkinaFasoPodatki", " ", "=", " ", 
-   RowBox[{
-    RowBox[{"Select", "[", 
-     RowBox[{"podatki", ",", " ", 
-      RowBox[{
-       RowBox[{
-        RowBox[{"#", "[", "\"\<Country\>\"", "]"}], "\[Equal]", " ", 
-        NamespaceBox["LinguisticAssistant",
-         DynamicModuleBox[{Typeset`query$$ = "Burkina faso", Typeset`boxes$$ =
-           TemplateBox[{"\"Burkina Faso\"", 
-            RowBox[{"Entity", "[", 
-              RowBox[{"\"Country\"", ",", "\"BurkinaFaso\""}], "]"}], 
-            "\"Entity[\\\"Country\\\", \\\"BurkinaFaso\\\"]\"", 
-            "\"country\""}, "Entity"], Typeset`allassumptions$$ = {}, 
-          Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
-          Typeset`querystate$$ = {
-          "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
-           1.066031`6.479314827579756, "Messages" -> {}}}, 
-          DynamicBox[ToBoxes[
-            AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
-             Dynamic[Typeset`query$$], 
-             Dynamic[Typeset`boxes$$], 
-             Dynamic[Typeset`allassumptions$$], 
-             Dynamic[Typeset`assumptions$$], 
-             Dynamic[Typeset`open$$], 
-             Dynamic[Typeset`querystate$$]], StandardForm],
-           ImageSizeCache->{118., {7., 16.}},
-           
-           TrackedSymbols:>{
-            Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
-             Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
-          DynamicModuleValues:>{},
-          UndoTrackedVariables:>{Typeset`open$$}],
-         BaseStyle->{"Deploy"},
-         DeleteWithContents->True,
-         Editable->False,
-         SelectWithContents->True]}], "&"}]}], "]"}], "[", 
-    RowBox[{"[", "1", "]"}], "]"}]}], ";"}]}],
- CellChangeTimes->{{3.82660137489996*^9, 3.826601499138439*^9}, {
-  3.826602256305561*^9, 3.826602260196072*^9}, {3.826602335605111*^9, 
-  3.8266023434158278`*^9}, {3.82670037880521*^9, 3.82670038071515*^9}, {
-  3.826701383254027*^9, 3.82670143950247*^9}, {3.826701476184802*^9, 
-  3.826701478245713*^9}, {3.82670150931236*^9, 3.826701511943637*^9}, {
-  3.8267045682022057`*^9, 
-  3.82670461268373*^9}},ExpressionUUID->"dc6791f3-5a97-4bc5-b9b5-\
-8f7a7f22d084"]], "Text",
- CellChangeTimes->{{3.8267053299431562`*^9, 
-  3.826705351393198*^9}},ExpressionUUID->"15e9dfd4-951f-48e4-85f6-\
-7ce26708d27d"],
-
 Cell[BoxData[{
  RowBox[{
-  RowBox[{"drzave", " ", "=", " ", 
+  RowBox[{"drzaveAfrika", " ", "=", " ", 
    RowBox[{"{", 
     RowBox[{
      NamespaceBox["LinguisticAssistant",
@@ -409,12 +243,12 @@ instead", "count" -> "2", "pulldown" -> "false", "default" ->
       Editable->False,
       SelectWithContents->True]}], "}"}]}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{"drzaveVrstice", "=", 
+  RowBox[{"drzaveAfrikaVrstice", "=", 
    RowBox[{"Select", "[", 
     RowBox[{"podatki", ",", 
      RowBox[{
       RowBox[{"MemberQ", "[", " ", 
-       RowBox[{"drzave", ",", 
+       RowBox[{"drzaveAfrika", ",", 
         RowBox[{"#", "[", "\"\<Country\>\"", "]"}]}], "]"}], "&"}]}], "]"}]}],
    ";"}]}], "Input",
  CellChangeTimes->{{3.82660137489996*^9, 3.826601499138439*^9}, {
@@ -423,9 +257,11 @@ instead", "count" -> "2", "pulldown" -> "false", "default" ->
   3.826701383254027*^9, 3.82670143950247*^9}, {3.826701476184802*^9, 
   3.826701478245713*^9}, {3.82670150931236*^9, 3.826701511943637*^9}, {
   3.8267045682022057`*^9, 3.82670461268373*^9}, {3.826705320563136*^9, 
-  3.826705326104384*^9}, {3.826705356501204*^9, 3.826705357727088*^9}},
+  3.826705326104384*^9}, {3.826705356501204*^9, 3.826705357727088*^9}, {
+  3.8273055377831984`*^9, 3.827305549866259*^9}, {3.8273055803967047`*^9, 
+  3.827305582492429*^9}},
  CellLabel->
-  "In[225]:=",ExpressionUUID->"fede7dd7-559f-48a3-8da6-5218c93787ec"],
+  "In[171]:=",ExpressionUUID->"fede7dd7-559f-48a3-8da6-5218c93787ec"],
 
 Cell["\<\
 Prikaz \[SHacek]tevila smrtnih primerov za otroke v starostnem razponu 0 - 27 \
@@ -444,12 +280,12 @@ Cell[BoxData[
    RowBox[{
     RowBox[{
      RowBox[{"#", "[", "\"\<Aged0To27Days\>\"", "]"}], "&"}], "/@", 
-    "drzaveVrstice"}], ",", 
+    "drzaveAfrikaVrstice"}], ",", 
    RowBox[{"PlotLegends", "\[Rule]", 
     RowBox[{"Table", "[", 
      RowBox[{
       RowBox[{
-       RowBox[{"drzaveVrstice", "[", 
+       RowBox[{"drzaveAfrikaVrstice", "[", 
         RowBox[{"[", "x", "]"}], "]"}], "[", "\"\<Country\>\"", "]"}], ",", 
       RowBox[{"{", 
        RowBox[{"x", ",", "1", ",", "4"}], "}"}]}], "]"}]}], ",", 
@@ -463,9 +299,10 @@ Cell[BoxData[
    3.826702094669804*^9}, {3.8267022523695717`*^9, 3.826702260688735*^9}, {
    3.82670462020151*^9, 3.8267046283987637`*^9}, {3.826705189339679*^9, 
    3.8267052169265013`*^9}, {3.826705460885673*^9, 3.826705500160214*^9}, {
-   3.826705539408279*^9, 3.826705540511484*^9}},
+   3.826705539408279*^9, 3.826705540511484*^9}, {3.827305554547765*^9, 
+   3.8273055618906317`*^9}},
  CellLabel->
-  "In[233]:=",ExpressionUUID->"cfded990-82b4-4cb7-828c-9de481ad9c33"],
+  "In[173]:=",ExpressionUUID->"cfded990-82b4-4cb7-828c-9de481ad9c33"],
 
 Cell[BoxData[
  TemplateBox[{
@@ -926,9 +763,10 @@ Cell[BoxData[
    3.826700390821981*^9, 3.826701904562722*^9, {3.826702090500174*^9, 
    3.8267020971252613`*^9}, 3.826704630141738*^9, {3.8267052045400963`*^9, 
    3.8267052191506853`*^9}, 3.8267053686827173`*^9, {3.826705494874385*^9, 
-   3.82670550105696*^9}, 3.82670554207117*^9},
+   3.82670550105696*^9}, 3.82670554207117*^9, 3.82730638785898*^9, 
+   3.827307793764286*^9},
  CellLabel->
-  "Out[233]=",ExpressionUUID->"37c342c9-4716-4e3b-8e3a-42848897023a"]
+  "Out[173]=",ExpressionUUID->"88941df4-4a27-49c6-8e1f-22fb61078066"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -939,12 +777,12 @@ Cell[BoxData[
    RowBox[{
     RowBox[{
      RowBox[{"#", "[", "\"\<Aged0To4Years\>\"", "]"}], "&"}], "/@", 
-    "drzaveVrstice"}], ",", 
+    "drzaveAfrikaVrstice"}], ",", 
    RowBox[{"PlotLegends", "\[Rule]", 
     RowBox[{"Table", "[", 
      RowBox[{
       RowBox[{
-       RowBox[{"drzaveVrstice", "[", 
+       RowBox[{"drzaveAfrikaVrstice", "[", 
         RowBox[{"[", "x", "]"}], "]"}], "[", "\"\<Country\>\"", "]"}], ",", 
       RowBox[{"{", 
        RowBox[{"x", ",", "1", ",", "4"}], "}"}]}], "]"}]}], ",", 
@@ -958,9 +796,9 @@ Cell[BoxData[
   3.826702041514937*^9, 3.82670206926715*^9}, {3.826704643975658*^9, 
   3.8267046593019114`*^9}, {3.826705230354109*^9, 3.826705238283463*^9}, {
   3.8267053711528187`*^9, 3.826705375304696*^9}, {3.826705509265259*^9, 
-  3.826705545246401*^9}},
+  3.826705545246401*^9}, {3.827305589317635*^9, 3.8273055941000757`*^9}},
  CellLabel->
-  "In[234]:=",ExpressionUUID->"925eeb58-3bad-40dc-969d-4ea6e72874be"],
+  "In[174]:=",ExpressionUUID->"925eeb58-3bad-40dc-969d-4ea6e72874be"],
 
 Cell[BoxData[
  TemplateBox[{
@@ -1424,9 +1262,1361 @@ Cell[BoxData[
    3.8266023614931593`*^9, 3.826700393302164*^9, 3.826701853967211*^9, 
    3.826701956580271*^9, 3.8267020077215023`*^9, {3.826702054561809*^9, 
    3.826702071667301*^9}, 3.8267046621479177`*^9, 3.826705239426199*^9, 
-   3.826705376761095*^9, {3.826705533523876*^9, 3.8267055472094316`*^9}},
+   3.826705376761095*^9, {3.826705533523876*^9, 3.8267055472094316`*^9}, 
+   3.8273063908901243`*^9, 3.827307796916068*^9},
  CellLabel->
-  "Out[234]=",ExpressionUUID->"6e08116e-0264-4c33-b6ab-7642ef9d3863"]
+  "Out[174]=",ExpressionUUID->"b088df47-6cab-4ec7-9584-ed3477cd093e"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Azija", "Subsection",
+ CellChangeTimes->{{3.827305495667376*^9, 
+  3.827305498573601*^9}},ExpressionUUID->"210a17b1-c848-4164-8eae-\
+9273cf09e3fe"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"drzaveAzija", " ", "=", " ", 
+   RowBox[{"{", 
+    RowBox[{
+     NamespaceBox["LinguisticAssistant",
+      DynamicModuleBox[{Typeset`query$$ = "India", Typeset`boxes$$ = 
+       TemplateBox[{"\"India\"", 
+         RowBox[{"Entity", "[", 
+           RowBox[{"\"Country\"", ",", "\"India\""}], "]"}], 
+         "\"Entity[\\\"Country\\\", \\\"India\\\"]\"", "\"country\""}, 
+        "Entity"], 
+       Typeset`allassumptions$$ = {{
+        "type" -> "Clash", "word" -> "India", "template" -> 
+         "Assuming \"India\" is a country${separator}Use as ${desc} or \
+${desc} instead", "count" -> "3", "pulldown" -> "false", "default" -> 
+         "{\"C\", \"India\"} -> {\"Country\", \"dflt\"}", 
+         "Values" -> {{
+           "name" -> "Country", "desc" -> "a country", "input" -> 
+            "{\"C\", \"India\"} -> {\"Country\"}"}, {
+           "name" -> "GivenName", "desc" -> "a given name", "input" -> 
+            "{\"C\", \"India\"} -> {\"GivenName\"}"}, {
+           "name" -> "Movie", "desc" -> "a movie", "input" -> 
+            "{\"C\", \"India\"} -> {\"Movie\"}"}}}}, 
+       Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+       Typeset`querystate$$ = {
+       "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+        1.369209`6.58801473864885, "Messages" -> {}}}, 
+       DynamicBox[ToBoxes[
+         AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+          Dynamic[Typeset`query$$], 
+          Dynamic[Typeset`boxes$$], 
+          Dynamic[Typeset`allassumptions$$], 
+          Dynamic[Typeset`assumptions$$], 
+          Dynamic[Typeset`open$$], 
+          Dynamic[Typeset`querystate$$]], StandardForm],
+        ImageSizeCache->{135., {7., 15.}},
+        TrackedSymbols:>{
+         Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+          Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+       DynamicModuleValues:>{},
+       UndoTrackedVariables:>{Typeset`open$$}],
+      BaseStyle->{"Deploy"},
+      DeleteWithContents->True,
+      Editable->False,
+      SelectWithContents->True], ",", 
+     NamespaceBox["LinguisticAssistant",
+      DynamicModuleBox[{Typeset`query$$ = "Indonesia", Typeset`boxes$$ = 
+       TemplateBox[{"\"Indonesia\"", 
+         RowBox[{"Entity", "[", 
+           RowBox[{"\"Country\"", ",", "\"Indonesia\""}], "]"}], 
+         "\"Entity[\\\"Country\\\", \\\"Indonesia\\\"]\"", "\"country\""}, 
+        "Entity"], Typeset`allassumptions$$ = {}, Typeset`assumptions$$ = {}, 
+       Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+       "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+        0.825676`6.368354654597819, "Messages" -> {}}}, 
+       DynamicBox[ToBoxes[
+         AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+          Dynamic[Typeset`query$$], 
+          Dynamic[Typeset`boxes$$], 
+          Dynamic[Typeset`allassumptions$$], 
+          Dynamic[Typeset`assumptions$$], 
+          Dynamic[Typeset`open$$], 
+          Dynamic[Typeset`querystate$$]], StandardForm],
+        ImageSizeCache->{142., {7., 15.}},
+        TrackedSymbols:>{
+         Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+          Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+       DynamicModuleValues:>{},
+       UndoTrackedVariables:>{Typeset`open$$}],
+      BaseStyle->{"Deploy"},
+      DeleteWithContents->True,
+      Editable->False,
+      SelectWithContents->True], ",", 
+     NamespaceBox["LinguisticAssistant",
+      DynamicModuleBox[{Typeset`query$$ = "Myanmar", Typeset`boxes$$ = 
+       TemplateBox[{"\"Myanmar\"", 
+         RowBox[{"Entity", "[", 
+           RowBox[{"\"Country\"", ",", "\"Myanmar\""}], "]"}], 
+         "\"Entity[\\\"Country\\\", \\\"Myanmar\\\"]\"", "\"country\""}, 
+        "Entity"], 
+       Typeset`allassumptions$$ = {{
+        "type" -> "Clash", "word" -> "Myanmar", "template" -> 
+         "Assuming \"Myanmar\" is a country${separator}Use as ${desc} or \
+${desc} instead", "count" -> "3", "pulldown" -> "false", "default" -> 
+         "{\"C\", \"Myanmar\"} -> {\"Country\", \"dflt\"}", 
+         "Values" -> {{
+           "name" -> "Country", "desc" -> "a country", "input" -> 
+            "{\"C\", \"Myanmar\"} -> {\"Country\"}"}, {
+           "name" -> "WritingScript", "desc" -> "a writing script", "input" -> 
+            "{\"C\", \"Myanmar\"} -> {\"WritingScript\"}"}, {
+           "name" -> "Language", "desc" -> "a language", "input" -> 
+            "{\"C\", \"Myanmar\"} -> {\"Language\"}"}}}}, 
+       Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+       Typeset`querystate$$ = {
+       "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+        0.834213`6.372821946908293, "Messages" -> {}}}, 
+       DynamicBox[ToBoxes[
+         AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+          Dynamic[Typeset`query$$], 
+          Dynamic[Typeset`boxes$$], 
+          Dynamic[Typeset`allassumptions$$], 
+          Dynamic[Typeset`assumptions$$], 
+          Dynamic[Typeset`open$$], 
+          Dynamic[Typeset`querystate$$]], StandardForm],
+        ImageSizeCache->{162., {7., 15.}},
+        TrackedSymbols:>{
+         Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+          Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+       DynamicModuleValues:>{},
+       UndoTrackedVariables:>{Typeset`open$$}],
+      BaseStyle->{"Deploy"},
+      DeleteWithContents->True,
+      Editable->False,
+      SelectWithContents->True], ",", 
+     NamespaceBox["LinguisticAssistant",
+      DynamicModuleBox[{Typeset`query$$ = "Pakistan", Typeset`boxes$$ = 
+       TemplateBox[{"\"Pakistan\"", 
+         RowBox[{"Entity", "[", 
+           RowBox[{"\"Country\"", ",", "\"Pakistan\""}], "]"}], 
+         "\"Entity[\\\"Country\\\", \\\"Pakistan\\\"]\"", "\"country\""}, 
+        "Entity"], Typeset`allassumptions$$ = {}, Typeset`assumptions$$ = {}, 
+       Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+       "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+        0.785577`6.34673375325538, "Messages" -> {}}}, 
+       DynamicBox[ToBoxes[
+         AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+          Dynamic[Typeset`query$$], 
+          Dynamic[Typeset`boxes$$], 
+          Dynamic[Typeset`allassumptions$$], 
+          Dynamic[Typeset`assumptions$$], 
+          Dynamic[Typeset`open$$], 
+          Dynamic[Typeset`querystate$$]], StandardForm],
+        ImageSizeCache->{134., {7., 15.}},
+        TrackedSymbols:>{
+         Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+          Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+       DynamicModuleValues:>{},
+       UndoTrackedVariables:>{Typeset`open$$}],
+      BaseStyle->{"Deploy"},
+      DeleteWithContents->True,
+      Editable->False,
+      SelectWithContents->True]}], "}"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"drzaveAzijaVrstice", "=", 
+   RowBox[{"Select", "[", 
+    RowBox[{"podatki", ",", 
+     RowBox[{
+      RowBox[{"MemberQ", "[", " ", 
+       RowBox[{"drzaveAzija", ",", 
+        RowBox[{"#", "[", "\"\<Country\>\"", "]"}]}], "]"}], "&"}]}], "]"}]}],
+   ";"}]}], "Input",
+ CellChangeTimes->{{3.8273056226917887`*^9, 3.8273056277096453`*^9}, {
+  3.8273056866269703`*^9, 3.8273056915783567`*^9}},
+ CellLabel->"In[62]:=",ExpressionUUID->"9f29b2c8-5cc3-4e12-ab46-11e6256bdd43"],
+
+Cell["\<\
+Prikaz \[SHacek]tevila smrtnih primerov za otroke v starostnem razponu 0 - 4 \
+let .\
+\>", "Text",
+ CellChangeTimes->{{3.827305642388794*^9, 
+  3.827305674850973*^9}},ExpressionUUID->"00db395c-f4b2-4e71-bd64-\
+39c56a4d0faf"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"DateListPlot", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"#", "[", "\"\<Aged0To4Years\>\"", "]"}], "&"}], "/@", 
+    "drzaveAzijaVrstice"}], ",", 
+   RowBox[{"PlotLegends", "\[Rule]", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"drzaveAzijaVrstice", "[", 
+        RowBox[{"[", "x", "]"}], "]"}], "[", "\"\<Country\>\"", "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"x", ",", "1", ",", "4"}], "}"}]}], "]"}]}], ",", 
+   RowBox[{
+   "PlotLabel", "\[Rule]", 
+    "\"\<\[CapitalSHacek]tevilo umrlih v starosti 0 - 4 let\>\""}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{
+  3.827305717651602*^9, {3.827305761178237*^9, 3.827305779809307*^9}},
+ CellLabel->"In[67]:=",ExpressionUUID->"a8940f3a-1289-4816-80a7-1fbff2822f78"],
+
+Cell[BoxData[
+ TemplateBox[{
+   GraphicsBox[{{}, {{{}, {}, {
+        Hue[0.67, 0.6, 0.6], 
+        Directive[
+         PointSize[0.011000000000000001`], 
+         RGBColor[0.368417, 0.506779, 0.709798], 
+         AbsoluteThickness[1.6]], 
+        LineBox[{{3.1556736*^9, 11796.}, {3.187296*^9, 10325.}, {3.218832*^9, 
+         9443.}, {3.250368*^9, 9076.}, {3.281904*^9, 10420.}, {3.3135264*^9, 
+         11286.}, {3.3450624*^9, 9518.}, {3.3765984*^9, 9552.}, {3.4081344*^9,
+          10612.}, {3.4397568*^9, 12519.}, {3.4712928*^9, 10746.}, {
+         3.5028288*^9, 9156.}, {3.5343648*^9, 9039.}, {3.5659872*^9, 8041.}, {
+         3.5975232*^9, 7213.}, {3.6290592*^9, 6627.}}]}, {
+        Hue[0.9060679774997897, 0.6, 0.6], 
+        Directive[
+         PointSize[0.011000000000000001`], 
+         RGBColor[0.880722, 0.611041, 0.142051], 
+         AbsoluteThickness[1.6]], 
+        LineBox[{{3.1556736*^9, 1173.}, {3.187296*^9, 1045.}, {3.218832*^9, 
+         1134.}, {3.250368*^9, 1135.}, {3.281904*^9, 1077.}, {3.3135264*^9, 
+         2058.}, {3.3450624*^9, 1745.}, {3.3765984*^9, 283.}, {3.4081344*^9, 
+         1792.}, {3.4397568*^9, 1809.}, {3.4712928*^9, 1807.}, {3.5028288*^9, 
+         1923.}, {3.5343648*^9, 2458.}, {3.5659872*^9, 1835.}, {3.5975232*^9, 
+         2054.}, {3.6290592*^9, 2091.}}]}, {
+        Hue[0.1421359549995791, 0.6, 0.6], 
+        Directive[
+         PointSize[0.011000000000000001`], 
+         RGBColor[0.560181, 0.691569, 0.194885], 
+         AbsoluteThickness[1.6]], 
+        LineBox[{{3.1556736*^9, 1000.}, {3.187296*^9, 957.}, {3.218832*^9, 
+         994.}, {3.250368*^9, 1017.}, {3.281904*^9, 980.}, {3.3135264*^9, 
+         976.}, {3.3450624*^9, 958.}, {3.3765984*^9, 824.}, {3.4081344*^9, 
+         1109.}, {3.4397568*^9, 1022.}, {3.4712928*^9, 961.}, {3.5028288*^9, 
+         897.}, {3.5343648*^9, 818.}, {3.5659872*^9, 709.}, {3.5975232*^9, 
+         611.}, {3.6290592*^9, 527.}}]}, {
+        Hue[0.37820393249936934`, 0.6, 0.6], 
+        Directive[
+         PointSize[0.011000000000000001`], 
+         RGBColor[0.922526, 0.385626, 0.209179], 
+         AbsoluteThickness[1.6]], 
+        LineBox[{{3.1556736*^9, 1108.}, {3.187296*^9, 1226.}, {3.218832*^9, 
+         1153.}, {3.250368*^9, 1086.}, {3.281904*^9, 735.}, {3.3135264*^9, 
+         1166.}, {3.3450624*^9, 1068.}, {3.3765984*^9, 1156.}, {3.4081344*^9, 
+         567.}, {3.4397568*^9, 242.}, {3.4712928*^9, 409.}, {3.5028288*^9, 
+         446.}, {3.5343648*^9, 399.}, {3.5659872*^9, 253.}, {3.5975232*^9, 
+         301.}, {3.6290592*^9, 273.}}]}}}, {{}, {}}}, {
+    DisplayFunction -> Identity, DisplayFunction -> Identity, DisplayFunction -> 
+     Identity, AspectRatio -> NCache[GoldenRatio^(-1), 0.6180339887498948], 
+     Axes -> {False, False}, AxesLabel -> {None, None}, 
+     AxesOrigin -> {3.1556736*^9, 0}, DisplayFunction :> Identity, 
+     Frame -> {{True, True}, {True, True}}, 
+     FrameLabel -> {{None, None}, {None, None}}, 
+     FrameTicks -> {{Automatic, Automatic}, {
+        Charting`DateTicksFunction[Automatic, DateTicksFormat -> {Automatic}], 
+        Charting`DateTicksFunction[
+        Automatic, DateTicksFormat -> {Automatic}, "TickLabels" -> None]}}, 
+     GridLines -> {None, None}, GridLinesStyle -> Directive[
+       GrayLevel[0.5, 0.4]], 
+     Method -> {
+      "NoShowPlotTheme" -> Automatic, "OptimizePlotMarkers" -> True, 
+       "OptimizePlotMarkers" -> True, 
+       "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+           Identity[
+            Part[#, 1]], 
+           Identity[
+            Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+           Identity[
+            Part[#, 1]], 
+           Identity[
+            Part[#, 2]]}& )}}, PlotLabel -> 
+     FormBox["\"\[CapitalSHacek]tevilo umrlih v starosti 0 - 4 let\"", 
+       TraditionalForm], 
+     PlotRange -> {{3.1556736*^9, 3.6290592*^9}, {0, 12519.}}, 
+     PlotRangeClipping -> True, PlotRangePadding -> {{
+        Scaled[0.02], 
+        Scaled[0.02]}, {
+        Scaled[0.02], 
+        Scaled[0.05]}}, Ticks -> {{}, Automatic}}], 
+   FormBox[
+    FormBox[
+     TemplateBox[{
+       TemplateBox[{"\"India\"", 
+         RowBox[{"Entity", "[", 
+           RowBox[{"\"Country\"", ",", "\"India\""}], "]"}], 
+         "\"Entity[\\\"Country\\\", \\\"India\\\"]\""}, 
+        "EntityTraditionalFramed"], 
+       TemplateBox[{"\"Indonesia\"", 
+         RowBox[{"Entity", "[", 
+           RowBox[{"\"Country\"", ",", "\"Indonesia\""}], "]"}], 
+         "\"Entity[\\\"Country\\\", \\\"Indonesia\\\"]\""}, 
+        "EntityTraditionalFramed"], 
+       TemplateBox[{"\"Myanmar\"", 
+         RowBox[{"Entity", "[", 
+           RowBox[{"\"Country\"", ",", "\"Myanmar\""}], "]"}], 
+         "\"Entity[\\\"Country\\\", \\\"Myanmar\\\"]\""}, 
+        "EntityTraditionalFramed"], 
+       TemplateBox[{"\"Pakistan\"", 
+         RowBox[{"Entity", "[", 
+           RowBox[{"\"Country\"", ",", "\"Pakistan\""}], "]"}], 
+         "\"Entity[\\\"Country\\\", \\\"Pakistan\\\"]\""}, 
+        "EntityTraditionalFramed"]}, "LineLegend", DisplayFunction -> (FormBox[
+        StyleBox[
+         StyleBox[
+          PaneBox[
+           TagBox[
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   GraphicsBox[{{
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    AbsoluteThickness[1.6]], {
+                    LineBox[{{0, 10}, {20, 10}}]}}, {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    AbsoluteThickness[1.6]], {}}}, AspectRatio -> Full, 
+                    ImageSize -> {20, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #}, {
+                   GraphicsBox[{{
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.880722, 0.611041, 0.142051], 
+                    AbsoluteThickness[1.6]], {
+                    LineBox[{{0, 10}, {20, 10}}]}}, {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.880722, 0.611041, 0.142051], 
+                    AbsoluteThickness[1.6]], {}}}, AspectRatio -> Full, 
+                    ImageSize -> {20, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #2}, {
+                   GraphicsBox[{{
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.560181, 0.691569, 0.194885], 
+                    AbsoluteThickness[1.6]], {
+                    LineBox[{{0, 10}, {20, 10}}]}}, {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.560181, 0.691569, 0.194885], 
+                    AbsoluteThickness[1.6]], {}}}, AspectRatio -> Full, 
+                    ImageSize -> {20, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #3}, {
+                   GraphicsBox[{{
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.922526, 0.385626, 0.209179], 
+                    AbsoluteThickness[1.6]], {
+                    LineBox[{{0, 10}, {20, 10}}]}}, {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.922526, 0.385626, 0.209179], 
+                    AbsoluteThickness[1.6]], {}}}, AspectRatio -> Full, 
+                    ImageSize -> {20, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #4}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Center, Left}, "Rows" -> {{Baseline}}}, 
+                 AutoDelete -> False, 
+                 GridBoxDividers -> {
+                  "Columns" -> {{False}}, "Rows" -> {{False}}}, 
+                 GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{All}}},
+                  GridBoxSpacings -> {
+                  "Columns" -> {{0.5}}, "Rows" -> {{0.8}}}], "Grid"]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+             AutoDelete -> False, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{1}}, "Rows" -> {{0}}}], 
+            "Grid"], Alignment -> Left, AppearanceElements -> None, 
+           ImageMargins -> {{5, 5}, {5, 5}}, ImageSizeAction -> 
+           "ResizeToFit"], LineIndent -> 0, StripOnInput -> False], {
+         FontFamily -> "Arial"}, Background -> Automatic, StripOnInput -> 
+         False], TraditionalForm]& ), 
+      InterpretationFunction :> (RowBox[{"LineLegend", "[", 
+         RowBox[{
+           RowBox[{"{", 
+             RowBox[{
+               RowBox[{"Directive", "[", 
+                 RowBox[{
+                   RowBox[{"PointSize", "[", "0.011000000000000001`", "]"}], 
+                   ",", 
+                   InterpretationBox[
+                    ButtonBox[
+                    TooltipBox[
+                    GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, DefaultBaseStyle -> 
+                    "ColorSwatchGraphics", AspectRatio -> 1, Frame -> True, 
+                    FrameStyle -> 
+                    RGBColor[
+                    0.24561133333333335`, 0.3378526666666667, 
+                    0.4731986666666667], FrameTicks -> None, PlotRangePadding -> 
+                    None, ImageSize -> 
+                    Dynamic[{
+                    Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                    StyleBox[
+                    RowBox[{"RGBColor", "[", 
+                    RowBox[{"0.368417`", ",", "0.506779`", ",", "0.709798`"}],
+                     "]"}], NumberMarks -> False]], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
+                    With[{Typeset`box$ = EvaluationBox[]}, 
+                    If[
+                    Not[
+                    AbsoluteCurrentValue["Deployed"]], 
+                    SelectionMove[Typeset`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.368417, 0.506779, 0.709798]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[Typeset`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]]], BaseStyle -> Inherited, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], 
+                    RGBColor[0.368417, 0.506779, 0.709798], Editable -> False,
+                     Selectable -> False], ",", 
+                   RowBox[{"AbsoluteThickness", "[", "1.6`", "]"}]}], "]"}], 
+               ",", 
+               RowBox[{"Directive", "[", 
+                 RowBox[{
+                   RowBox[{"PointSize", "[", "0.011000000000000001`", "]"}], 
+                   ",", 
+                   InterpretationBox[
+                    ButtonBox[
+                    TooltipBox[
+                    GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.880722, 0.611041, 0.142051], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, DefaultBaseStyle -> 
+                    "ColorSwatchGraphics", AspectRatio -> 1, Frame -> True, 
+                    FrameStyle -> 
+                    RGBColor[
+                    0.587148, 0.40736066666666665`, 0.09470066666666668], 
+                    FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
+                    Dynamic[{
+                    Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                    StyleBox[
+                    RowBox[{"RGBColor", "[", 
+                    RowBox[{"0.880722`", ",", "0.611041`", ",", "0.142051`"}],
+                     "]"}], NumberMarks -> False]], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
+                    With[{Typeset`box$ = EvaluationBox[]}, 
+                    If[
+                    Not[
+                    AbsoluteCurrentValue["Deployed"]], 
+                    SelectionMove[Typeset`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.880722, 0.611041, 0.142051]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[Typeset`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]]], BaseStyle -> Inherited, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], 
+                    RGBColor[0.880722, 0.611041, 0.142051], Editable -> False,
+                     Selectable -> False], ",", 
+                   RowBox[{"AbsoluteThickness", "[", "1.6`", "]"}]}], "]"}], 
+               ",", 
+               RowBox[{"Directive", "[", 
+                 RowBox[{
+                   RowBox[{"PointSize", "[", "0.011000000000000001`", "]"}], 
+                   ",", 
+                   InterpretationBox[
+                    ButtonBox[
+                    TooltipBox[
+                    GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.560181, 0.691569, 0.194885], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, DefaultBaseStyle -> 
+                    "ColorSwatchGraphics", AspectRatio -> 1, Frame -> True, 
+                    FrameStyle -> 
+                    RGBColor[
+                    0.37345400000000006`, 0.461046, 0.12992333333333334`], 
+                    FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
+                    Dynamic[{
+                    Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                    StyleBox[
+                    RowBox[{"RGBColor", "[", 
+                    RowBox[{"0.560181`", ",", "0.691569`", ",", "0.194885`"}],
+                     "]"}], NumberMarks -> False]], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
+                    With[{Typeset`box$ = EvaluationBox[]}, 
+                    If[
+                    Not[
+                    AbsoluteCurrentValue["Deployed"]], 
+                    SelectionMove[Typeset`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.560181, 0.691569, 0.194885]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[Typeset`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]]], BaseStyle -> Inherited, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], 
+                    RGBColor[0.560181, 0.691569, 0.194885], Editable -> False,
+                     Selectable -> False], ",", 
+                   RowBox[{"AbsoluteThickness", "[", "1.6`", "]"}]}], "]"}], 
+               ",", 
+               RowBox[{"Directive", "[", 
+                 RowBox[{
+                   RowBox[{"PointSize", "[", "0.011000000000000001`", "]"}], 
+                   ",", 
+                   InterpretationBox[
+                    ButtonBox[
+                    TooltipBox[
+                    GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.922526, 0.385626, 0.209179], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, DefaultBaseStyle -> 
+                    "ColorSwatchGraphics", AspectRatio -> 1, Frame -> True, 
+                    FrameStyle -> 
+                    RGBColor[
+                    0.6150173333333333, 0.25708400000000003`, 
+                    0.13945266666666667`], FrameTicks -> None, 
+                    PlotRangePadding -> None, ImageSize -> 
+                    Dynamic[{
+                    Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                    StyleBox[
+                    RowBox[{"RGBColor", "[", 
+                    RowBox[{"0.922526`", ",", "0.385626`", ",", "0.209179`"}],
+                     "]"}], NumberMarks -> False]], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
+                    With[{Typeset`box$ = EvaluationBox[]}, 
+                    If[
+                    Not[
+                    AbsoluteCurrentValue["Deployed"]], 
+                    SelectionMove[Typeset`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.922526, 0.385626, 0.209179]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[Typeset`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]]], BaseStyle -> Inherited, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], 
+                    RGBColor[0.922526, 0.385626, 0.209179], Editable -> False,
+                     Selectable -> False], ",", 
+                   RowBox[{"AbsoluteThickness", "[", "1.6`", "]"}]}], "]"}]}],
+              "}"}], ",", 
+           RowBox[{"{", 
+             RowBox[{#, ",", #2, ",", #3, ",", #4}], "}"}], ",", 
+           RowBox[{"LegendMarkers", "\[Rule]", 
+             RowBox[{"{", 
+               RowBox[{
+                 RowBox[{"{", 
+                   RowBox[{"False", ",", "Automatic"}], "}"}], ",", 
+                 RowBox[{"{", 
+                   RowBox[{"False", ",", "Automatic"}], "}"}], ",", 
+                 RowBox[{"{", 
+                   RowBox[{"False", ",", "Automatic"}], "}"}], ",", 
+                 RowBox[{"{", 
+                   RowBox[{"False", ",", "Automatic"}], "}"}]}], "}"}]}], ",", 
+           RowBox[{"Joined", "\[Rule]", 
+             RowBox[{"{", 
+               RowBox[{"True", ",", "True", ",", "True", ",", "True"}], 
+               "}"}]}], ",", 
+           RowBox[{"LabelStyle", "\[Rule]", 
+             RowBox[{"{", "}"}]}], ",", 
+           RowBox[{"LegendLayout", "\[Rule]", "\"Column\""}]}], "]"}]& ), 
+      Editable -> True], TraditionalForm], TraditionalForm]},
+  "Legended",
+  DisplayFunction->(GridBox[{{
+      TagBox[
+       ItemBox[
+        PaneBox[
+         TagBox[#, "SkipImageSizeLevel"], Alignment -> {Center, Baseline}, 
+         BaselinePosition -> Baseline], DefaultBaseStyle -> "Labeled"], 
+       "SkipImageSizeLevel"], 
+      ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+    GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Center}}}, 
+    AutoDelete -> False, GridBoxItemSize -> Automatic, 
+    BaselinePosition -> {1, 1}]& ),
+  Editable->True,
+  InterpretationFunction->(RowBox[{"Legended", "[", 
+     RowBox[{#, ",", 
+       RowBox[{"Placed", "[", 
+         RowBox[{#2, ",", "After"}], "]"}]}], "]"}]& )]], "Output",
+ CellChangeTimes->{
+  3.827305701073566*^9, {3.827305767531753*^9, 3.827305781572304*^9}},
+ CellLabel->"Out[67]=",ExpressionUUID->"6e37c5e3-9215-469e-bc90-237f1a171960"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Ju\[ZHacek]na Amerika in Karibi", "Subsection",
+ CellChangeTimes->{{3.8273057959807863`*^9, 3.8273058050877*^9}, {
+  3.827305942815585*^9, 
+  3.827305945942737*^9}},ExpressionUUID->"16392a64-8e66-436b-8fcf-\
+cdfc1519352e"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"drzaveAmerika", " ", "=", " ", 
+   RowBox[{"{", 
+    RowBox[{
+     NamespaceBox["LinguisticAssistant",
+      DynamicModuleBox[{Typeset`query$$ = "haiti", Typeset`boxes$$ = 
+       TemplateBox[{"\"Haiti\"", 
+         RowBox[{"Entity", "[", 
+           RowBox[{"\"Country\"", ",", "\"Haiti\""}], "]"}], 
+         "\"Entity[\\\"Country\\\", \\\"Haiti\\\"]\"", "\"country\""}, 
+        "Entity"], Typeset`allassumptions$$ = {}, Typeset`assumptions$$ = {}, 
+       Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+       "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+        1.067856`6.480057685681165, "Messages" -> {}}}, 
+       DynamicBox[ToBoxes[
+         AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+          Dynamic[Typeset`query$$], 
+          Dynamic[Typeset`boxes$$], 
+          Dynamic[Typeset`allassumptions$$], 
+          Dynamic[Typeset`assumptions$$], 
+          Dynamic[Typeset`open$$], 
+          Dynamic[Typeset`querystate$$]], StandardForm],
+        ImageSizeCache->{109., {7., 15.}},
+        TrackedSymbols:>{
+         Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+          Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+       DynamicModuleValues:>{},
+       UndoTrackedVariables:>{Typeset`open$$}],
+      BaseStyle->{"Deploy"},
+      DeleteWithContents->True,
+      Editable->False,
+      SelectWithContents->True], ",", 
+     NamespaceBox["LinguisticAssistant",
+      DynamicModuleBox[{Typeset`query$$ = "venezuela", Typeset`boxes$$ = 
+       TemplateBox[{"\"Venezuela\"", 
+         RowBox[{"Entity", "[", 
+           RowBox[{"\"Country\"", ",", "\"Venezuela\""}], "]"}], 
+         "\"Entity[\\\"Country\\\", \\\"Venezuela\\\"]\"", "\"country\""}, 
+        "Entity"], 
+       Typeset`allassumptions$$ = {{
+        "type" -> "Clash", "word" -> "venezuela", "template" -> 
+         "Assuming \"venezuela\" is a country${separator}Use as ${desc} \
+instead", "count" -> "2", "pulldown" -> "false", "default" -> 
+         "{\"C\", \"venezuela\"} -> {\"Country\", \"dflt\"}", 
+         "Values" -> {{
+           "name" -> "Country", "desc" -> "a country", "input" -> 
+            "{\"C\", \"venezuela\"} -> {\"Country\"}"}, {
+           "name" -> "AdministrativeDivision", "desc" -> 
+            "an administrative division", "input" -> 
+            "{\"C\", \"venezuela\"} -> {\"AdministrativeDivision\"}"}}}}, 
+       Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+       Typeset`querystate$$ = {
+       "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+        0.704471`6.299408113298763, "Messages" -> {}}}, 
+       DynamicBox[ToBoxes[
+         AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+          Dynamic[Typeset`query$$], 
+          Dynamic[Typeset`boxes$$], 
+          Dynamic[Typeset`allassumptions$$], 
+          Dynamic[Typeset`assumptions$$], 
+          Dynamic[Typeset`open$$], 
+          Dynamic[Typeset`querystate$$]], StandardForm],
+        ImageSizeCache->{169., {7., 15.}},
+        TrackedSymbols:>{
+         Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+          Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+       DynamicModuleValues:>{},
+       UndoTrackedVariables:>{Typeset`open$$}],
+      BaseStyle->{"Deploy"},
+      DeleteWithContents->True,
+      Editable->False,
+      SelectWithContents->True], ",", 
+     NamespaceBox["LinguisticAssistant",
+      DynamicModuleBox[{Typeset`query$$ = "brazil", Typeset`boxes$$ = 
+       TemplateBox[{"\"Brazil\"", 
+         RowBox[{"Entity", "[", 
+           RowBox[{"\"Country\"", ",", "\"Brazil\""}], "]"}], 
+         "\"Entity[\\\"Country\\\", \\\"Brazil\\\"]\"", "\"country\""}, 
+        "Entity"], 
+       Typeset`allassumptions$$ = {{
+        "type" -> "Clash", "word" -> "brazil", "template" -> 
+         "Assuming \"brazil\" is a country${separator}Use as ${desc} or \
+${desc} instead", "count" -> "3", "pulldown" -> "false", "default" -> 
+         "{\"C\", \"brazil\"} -> {\"Country\", \"dflt\"}", 
+         "Values" -> {{
+           "name" -> "Country", "desc" -> "a country", "input" -> 
+            "{\"C\", \"brazil\"} -> {\"Country\"}"}, {
+           "name" -> "City", "desc" -> "a city", "input" -> 
+            "{\"C\", \"brazil\"} -> {\"City\"}"}, {
+           "name" -> "Word", "desc" -> "a word", "input" -> 
+            "{\"C\", \"brazil\"} -> {\"Word\"}"}}}}, 
+       Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+       Typeset`querystate$$ = {
+       "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+        0.709226`6.302329641814522, "Messages" -> {}}}, 
+       DynamicBox[ToBoxes[
+         AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+          Dynamic[Typeset`query$$], 
+          Dynamic[Typeset`boxes$$], 
+          Dynamic[Typeset`allassumptions$$], 
+          Dynamic[Typeset`assumptions$$], 
+          Dynamic[Typeset`open$$], 
+          Dynamic[Typeset`querystate$$]], StandardForm],
+        ImageSizeCache->{140., {7., 15.}},
+        TrackedSymbols:>{
+         Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+          Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+       DynamicModuleValues:>{},
+       UndoTrackedVariables:>{Typeset`open$$}],
+      BaseStyle->{"Deploy"},
+      DeleteWithContents->True,
+      Editable->False,
+      SelectWithContents->True], ",", 
+     NamespaceBox["LinguisticAssistant",
+      DynamicModuleBox[{Typeset`query$$ = "columbia", Typeset`boxes$$ = 
+       TemplateBox[{"\"Colombia\"", 
+         RowBox[{"Entity", "[", 
+           RowBox[{"\"Country\"", ",", "\"Colombia\""}], "]"}], 
+         "\"Entity[\\\"Country\\\", \\\"Colombia\\\"]\"", "\"country\""}, 
+        "Entity"], 
+       Typeset`allassumptions$$ = {{
+        "type" -> "Clash", "word" -> "columbia", "template" -> 
+         "Assuming \"columbia\" is a country${separator}Use as ${desc} or \
+${desc} or ${desc} or ${desc} or ${desc} or ${desc} or ${desc} or ${desc} or \
+${desc} or ${desc} or ${desc} instead", "count" -> "12", "pulldown" -> 
+         "false", "default" -> 
+         "{\"C\", \"columbia\"} -> {\"Country\", \"dflt\"}", 
+         "Values" -> {{
+           "name" -> "Country", "desc" -> "a country", "input" -> 
+            "{\"C\", \"columbia\"} -> {\"Country\"}"}, {
+           "name" -> "River", "desc" -> "a river", "input" -> 
+            "{\"C\", \"columbia\"} -> {\"River\"}"}, {
+           "name" -> "University", "desc" -> "a university", "input" -> 
+            "{\"C\", \"columbia\"} -> {\"University\"}"}, {
+           "name" -> "SatelliteClass", "desc" -> "a class of satellites", 
+            "input" -> "{\"C\", \"columbia\"} -> {\"SatelliteClass\"}"}, {
+           "name" -> "RetailLocationClass", "desc" -> "a clothing store", 
+            "input" -> 
+            "{\"C\", \"columbia\"} -> {{\"RetailLocationClass\", \"a clothing \
+store\"}}"}, {
+           "name" -> "Plant", "desc" -> "a plant", "input" -> 
+            "{\"C\", \"columbia\"} -> {\"Plant\"}"}, {
+           "name" -> "City", "desc" -> "a city", "input" -> 
+            "{\"C\", \"columbia\"} -> {\"City\"}"}, {
+           "name" -> "Company", "desc" -> "a company", "input" -> 
+            "{\"C\", \"columbia\"} -> {\"Company\"}"}, {
+           "name" -> "Glacier", "desc" -> "a glacier", "input" -> 
+            "{\"C\", \"columbia\"} -> {\"Glacier\"}"}, {
+           "name" -> "GivenName", "desc" -> "a given name", "input" -> 
+            "{\"C\", \"columbia\"} -> {\"GivenName\"}"}, {
+           "name" -> "Satellite", "desc" -> "a spacecraft", "input" -> 
+            "{\"C\", \"columbia\"} -> {\"Satellite\"}"}, {
+           "name" -> "AircraftClass", "desc" -> "a class of aircraft", 
+            "input" -> "{\"C\", \"columbia\"} -> {\"AircraftClass\"}"}}}}, 
+       Typeset`assumptions$$ = {"{\"C\", \"columbia\"} -> {\"Country\"}"}, 
+       Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+       "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+        1.825154`6.712844508057523, "Messages" -> {}}}, 
+       DynamicBox[ToBoxes[
+         AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+          Dynamic[Typeset`query$$], 
+          Dynamic[Typeset`boxes$$], 
+          Dynamic[Typeset`allassumptions$$], 
+          Dynamic[Typeset`assumptions$$], 
+          Dynamic[Typeset`open$$], 
+          Dynamic[Typeset`querystate$$]], StandardForm],
+        ImageSizeCache->{164., {7., 15.}},
+        TrackedSymbols:>{
+         Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+          Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+       DynamicModuleValues:>{},
+       UndoTrackedVariables:>{Typeset`open$$}],
+      BaseStyle->{"Deploy"},
+      DeleteWithContents->True,
+      Editable->False,
+      SelectWithContents->True]}], "}"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"drzaveAmerikaVrstice", "=", 
+   RowBox[{"Select", "[", 
+    RowBox[{"podatki", ",", 
+     RowBox[{
+      RowBox[{"MemberQ", "[", " ", 
+       RowBox[{"drzaveAmerika", ",", 
+        RowBox[{"#", "[", "\"\<Country\>\"", "]"}]}], "]"}], "&"}]}], "]"}]}],
+   ";"}]}], "Input",
+ CellChangeTimes->{{3.827305854240019*^9, 3.8273058549778137`*^9}},
+ CellLabel->
+  "In[175]:=",ExpressionUUID->"bc03eba0-fb2c-40a8-87d2-a8a8ed9315da"],
+
+Cell["\<\
+Prikaz \[SHacek]tevila smrtnih primerov za otroke v starostnem razponu 0 - 4 \
+let .\
+\>", "Text",
+ CellChangeTimes->{{3.8273058370328283`*^9, 
+  3.827305845663011*^9}},ExpressionUUID->"4282e407-dc20-4d0f-a0c5-\
+22a25e7dad92"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"DateListPlot", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"#", "[", "\"\<Aged0To4Years\>\"", "]"}], "&"}], "/@", 
+    "drzaveAmerikaVrstice"}], ",", 
+   RowBox[{"PlotLegends", "\[Rule]", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"drzaveAmerikaVrstice", "[", 
+        RowBox[{"[", "x", "]"}], "]"}], "[", "\"\<Country\>\"", "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"x", ",", "1", ",", "4"}], "}"}]}], "]"}]}], ",", " ", 
+   RowBox[{
+   "PlotLabel", "\[Rule]", 
+    "\"\<\[CapitalSHacek]tevilo umrlih v starosti 0 - 4 let\>\""}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.827305858943613*^9, 3.827305871768985*^9}},
+ CellLabel->
+  "In[177]:=",ExpressionUUID->"d59d14a8-d84c-4ee4-8e07-cd32956ffce8"],
+
+Cell[BoxData[
+ TemplateBox[{
+   GraphicsBox[{{}, {{{}, {}, {
+        Hue[0.67, 0.6, 0.6], 
+        Directive[
+         PointSize[0.011000000000000001`], 
+         RGBColor[0.368417, 0.506779, 0.709798], 
+         AbsoluteThickness[1.6]], 
+        LineBox[{{3.1556736*^9, 88.}, {3.187296*^9, 48.}, {3.218832*^9, 
+         31.}, {3.250368*^9, 34.}, {3.281904*^9, 33.}, {3.3135264*^9, 41.}, {
+         3.3450624*^9, 34.}, {3.3765984*^9, 30.}, {3.4081344*^9, 21.}, {
+         3.4397568*^9, 26.}, {3.4712928*^9, 22.}, {3.5028288*^9, 20.}, {
+         3.5343648*^9, 18.}, {3.5659872*^9, 11.}, {3.5975232*^9, 9.}, {
+         3.6290592*^9, 7.}}]}, {
+        Hue[0.9060679774997897, 0.6, 0.6], 
+        Directive[
+         PointSize[0.011000000000000001`], 
+         RGBColor[0.880722, 0.611041, 0.142051], 
+         AbsoluteThickness[1.6]], 
+        LineBox[{{3.1556736*^9, 99.}, {3.187296*^9, 138.}, {3.218832*^9, 
+         118.}, {3.250368*^9, 99.}, {3.281904*^9, 69.}, {3.3135264*^9, 54.}, {
+         3.3450624*^9, 58.}, {3.3765984*^9, 64.}, {3.4081344*^9, 29.}, {
+         3.4397568*^9, 28.}, {3.4712928*^9, 46.}, {3.5028288*^9, 20.}, {
+         3.5343648*^9, 21.}, {3.5659872*^9, 21.}, {3.5975232*^9, 18.}, {
+         3.6290592*^9, 16.}}]}, {
+        Hue[0.1421359549995791, 0.6, 0.6], 
+        Directive[
+         PointSize[0.011000000000000001`], 
+         RGBColor[0.560181, 0.691569, 0.194885], 
+         AbsoluteThickness[1.6]], 
+        LineBox[{{3.1556736*^9, 143.}, {3.187296*^9, 146.}, {3.218832*^9, 
+         149.}, {3.250368*^9, 150.}, {3.281904*^9, 157.}, {3.3135264*^9, 
+         153.}, {3.3450624*^9, 148.}, {3.3765984*^9, 127.}, {3.4081344*^9, 
+         154.}, {3.4397568*^9, 217.}, {3.4712928*^9, 164.}, {3.5028288*^9, 
+         124.}, {3.5343648*^9, 90.}, {3.5659872*^9, 70.}, {3.5975232*^9, 
+         52.}, {3.6290592*^9, 40.}}]}, {
+        Hue[0.37820393249936934`, 0.6, 0.6], 
+        Directive[
+         PointSize[0.011000000000000001`], 
+         RGBColor[0.922526, 0.385626, 0.209179], 
+         AbsoluteThickness[1.6]], 
+        LineBox[{{3.1556736*^9, 15.}, {3.187296*^9, 8.}, {3.218832*^9, 10.}, {
+         3.250368*^9, 10.}, {3.281904*^9, 12.}, {3.3135264*^9, 13.}, {
+         3.3450624*^9, 12.}, {3.3765984*^9, 14.}, {3.4081344*^9, 10.}, {
+         3.4397568*^9, 15.}, {3.4712928*^9, 20.}, {3.5028288*^9, 19.}, {
+         3.5343648*^9, 23.}, {3.5659872*^9, 39.}, {3.5975232*^9, 36.}, {
+         3.6290592*^9, 40.}}]}}}, {{}, {}}}, {
+    DisplayFunction -> Identity, DisplayFunction -> Identity, DisplayFunction -> 
+     Identity, AspectRatio -> NCache[GoldenRatio^(-1), 0.6180339887498948], 
+     Axes -> {False, False}, AxesLabel -> {None, None}, 
+     AxesOrigin -> {3.1556736*^9, 0}, DisplayFunction :> Identity, 
+     Frame -> {{True, True}, {True, True}}, 
+     FrameLabel -> {{None, None}, {None, None}}, 
+     FrameTicks -> {{Automatic, Automatic}, {
+        Charting`DateTicksFunction[Automatic, DateTicksFormat -> {Automatic}], 
+        Charting`DateTicksFunction[
+        Automatic, DateTicksFormat -> {Automatic}, "TickLabels" -> None]}}, 
+     GridLines -> {None, None}, GridLinesStyle -> Directive[
+       GrayLevel[0.5, 0.4]], 
+     Method -> {
+      "NoShowPlotTheme" -> Automatic, "OptimizePlotMarkers" -> True, 
+       "OptimizePlotMarkers" -> True, 
+       "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+           Identity[
+            Part[#, 1]], 
+           Identity[
+            Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+           Identity[
+            Part[#, 1]], 
+           Identity[
+            Part[#, 2]]}& )}}, PlotLabel -> 
+     FormBox["\"\[CapitalSHacek]tevilo umrlih v starosti 0 - 4 let\"", 
+       TraditionalForm], 
+     PlotRange -> {{3.1556736*^9, 3.6290592*^9}, {0, 217.}}, 
+     PlotRangeClipping -> True, PlotRangePadding -> {{
+        Scaled[0.02], 
+        Scaled[0.02]}, {
+        Scaled[0.02], 
+        Scaled[0.05]}}, Ticks -> {{}, Automatic}}], 
+   FormBox[
+    FormBox[
+     TemplateBox[{
+       TemplateBox[{"\"Brazil\"", 
+         RowBox[{"Entity", "[", 
+           RowBox[{"\"Country\"", ",", "\"Brazil\""}], "]"}], 
+         "\"Entity[\\\"Country\\\", \\\"Brazil\\\"]\""}, 
+        "EntityTraditionalFramed"], 
+       TemplateBox[{"\"Colombia\"", 
+         RowBox[{"Entity", "[", 
+           RowBox[{"\"Country\"", ",", "\"Colombia\""}], "]"}], 
+         "\"Entity[\\\"Country\\\", \\\"Colombia\\\"]\""}, 
+        "EntityTraditionalFramed"], 
+       TemplateBox[{"\"Haiti\"", 
+         RowBox[{"Entity", "[", 
+           RowBox[{"\"Country\"", ",", "\"Haiti\""}], "]"}], 
+         "\"Entity[\\\"Country\\\", \\\"Haiti\\\"]\""}, 
+        "EntityTraditionalFramed"], 
+       TemplateBox[{"\"Venezuela\"", 
+         RowBox[{"Entity", "[", 
+           RowBox[{"\"Country\"", ",", "\"Venezuela\""}], "]"}], 
+         "\"Entity[\\\"Country\\\", \\\"Venezuela\\\"]\""}, 
+        "EntityTraditionalFramed"]}, "LineLegend", DisplayFunction -> (FormBox[
+        StyleBox[
+         StyleBox[
+          PaneBox[
+           TagBox[
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   GraphicsBox[{{
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    AbsoluteThickness[1.6]], {
+                    LineBox[{{0, 10}, {20, 10}}]}}, {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    AbsoluteThickness[1.6]], {}}}, AspectRatio -> Full, 
+                    ImageSize -> {20, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #}, {
+                   GraphicsBox[{{
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.880722, 0.611041, 0.142051], 
+                    AbsoluteThickness[1.6]], {
+                    LineBox[{{0, 10}, {20, 10}}]}}, {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.880722, 0.611041, 0.142051], 
+                    AbsoluteThickness[1.6]], {}}}, AspectRatio -> Full, 
+                    ImageSize -> {20, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #2}, {
+                   GraphicsBox[{{
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.560181, 0.691569, 0.194885], 
+                    AbsoluteThickness[1.6]], {
+                    LineBox[{{0, 10}, {20, 10}}]}}, {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.560181, 0.691569, 0.194885], 
+                    AbsoluteThickness[1.6]], {}}}, AspectRatio -> Full, 
+                    ImageSize -> {20, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #3}, {
+                   GraphicsBox[{{
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.922526, 0.385626, 0.209179], 
+                    AbsoluteThickness[1.6]], {
+                    LineBox[{{0, 10}, {20, 10}}]}}, {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    RGBColor[0.922526, 0.385626, 0.209179], 
+                    AbsoluteThickness[1.6]], {}}}, AspectRatio -> Full, 
+                    ImageSize -> {20, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #4}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Center, Left}, "Rows" -> {{Baseline}}}, 
+                 AutoDelete -> False, 
+                 GridBoxDividers -> {
+                  "Columns" -> {{False}}, "Rows" -> {{False}}}, 
+                 GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{All}}},
+                  GridBoxSpacings -> {
+                  "Columns" -> {{0.5}}, "Rows" -> {{0.8}}}], "Grid"]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+             AutoDelete -> False, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{1}}, "Rows" -> {{0}}}], 
+            "Grid"], Alignment -> Left, AppearanceElements -> None, 
+           ImageMargins -> {{5, 5}, {5, 5}}, ImageSizeAction -> 
+           "ResizeToFit"], LineIndent -> 0, StripOnInput -> False], {
+         FontFamily -> "Arial"}, Background -> Automatic, StripOnInput -> 
+         False], TraditionalForm]& ), 
+      InterpretationFunction :> (RowBox[{"LineLegend", "[", 
+         RowBox[{
+           RowBox[{"{", 
+             RowBox[{
+               RowBox[{"Directive", "[", 
+                 RowBox[{
+                   RowBox[{"PointSize", "[", "0.011000000000000001`", "]"}], 
+                   ",", 
+                   InterpretationBox[
+                    ButtonBox[
+                    TooltipBox[
+                    GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, DefaultBaseStyle -> 
+                    "ColorSwatchGraphics", AspectRatio -> 1, Frame -> True, 
+                    FrameStyle -> 
+                    RGBColor[
+                    0.24561133333333335`, 0.3378526666666667, 
+                    0.4731986666666667], FrameTicks -> None, PlotRangePadding -> 
+                    None, ImageSize -> 
+                    Dynamic[{
+                    Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                    StyleBox[
+                    RowBox[{"RGBColor", "[", 
+                    RowBox[{"0.368417`", ",", "0.506779`", ",", "0.709798`"}],
+                     "]"}], NumberMarks -> False]], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
+                    With[{Typeset`box$ = EvaluationBox[]}, 
+                    If[
+                    Not[
+                    AbsoluteCurrentValue["Deployed"]], 
+                    SelectionMove[Typeset`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.368417, 0.506779, 0.709798]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[Typeset`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]]], BaseStyle -> Inherited, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], 
+                    RGBColor[0.368417, 0.506779, 0.709798], Editable -> False,
+                     Selectable -> False], ",", 
+                   RowBox[{"AbsoluteThickness", "[", "1.6`", "]"}]}], "]"}], 
+               ",", 
+               RowBox[{"Directive", "[", 
+                 RowBox[{
+                   RowBox[{"PointSize", "[", "0.011000000000000001`", "]"}], 
+                   ",", 
+                   InterpretationBox[
+                    ButtonBox[
+                    TooltipBox[
+                    GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.880722, 0.611041, 0.142051], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, DefaultBaseStyle -> 
+                    "ColorSwatchGraphics", AspectRatio -> 1, Frame -> True, 
+                    FrameStyle -> 
+                    RGBColor[
+                    0.587148, 0.40736066666666665`, 0.09470066666666668], 
+                    FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
+                    Dynamic[{
+                    Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                    StyleBox[
+                    RowBox[{"RGBColor", "[", 
+                    RowBox[{"0.880722`", ",", "0.611041`", ",", "0.142051`"}],
+                     "]"}], NumberMarks -> False]], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
+                    With[{Typeset`box$ = EvaluationBox[]}, 
+                    If[
+                    Not[
+                    AbsoluteCurrentValue["Deployed"]], 
+                    SelectionMove[Typeset`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.880722, 0.611041, 0.142051]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[Typeset`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]]], BaseStyle -> Inherited, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], 
+                    RGBColor[0.880722, 0.611041, 0.142051], Editable -> False,
+                     Selectable -> False], ",", 
+                   RowBox[{"AbsoluteThickness", "[", "1.6`", "]"}]}], "]"}], 
+               ",", 
+               RowBox[{"Directive", "[", 
+                 RowBox[{
+                   RowBox[{"PointSize", "[", "0.011000000000000001`", "]"}], 
+                   ",", 
+                   InterpretationBox[
+                    ButtonBox[
+                    TooltipBox[
+                    GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.560181, 0.691569, 0.194885], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, DefaultBaseStyle -> 
+                    "ColorSwatchGraphics", AspectRatio -> 1, Frame -> True, 
+                    FrameStyle -> 
+                    RGBColor[
+                    0.37345400000000006`, 0.461046, 0.12992333333333334`], 
+                    FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
+                    Dynamic[{
+                    Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                    StyleBox[
+                    RowBox[{"RGBColor", "[", 
+                    RowBox[{"0.560181`", ",", "0.691569`", ",", "0.194885`"}],
+                     "]"}], NumberMarks -> False]], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
+                    With[{Typeset`box$ = EvaluationBox[]}, 
+                    If[
+                    Not[
+                    AbsoluteCurrentValue["Deployed"]], 
+                    SelectionMove[Typeset`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.560181, 0.691569, 0.194885]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[Typeset`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]]], BaseStyle -> Inherited, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], 
+                    RGBColor[0.560181, 0.691569, 0.194885], Editable -> False,
+                     Selectable -> False], ",", 
+                   RowBox[{"AbsoluteThickness", "[", "1.6`", "]"}]}], "]"}], 
+               ",", 
+               RowBox[{"Directive", "[", 
+                 RowBox[{
+                   RowBox[{"PointSize", "[", "0.011000000000000001`", "]"}], 
+                   ",", 
+                   InterpretationBox[
+                    ButtonBox[
+                    TooltipBox[
+                    GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.922526, 0.385626, 0.209179], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, DefaultBaseStyle -> 
+                    "ColorSwatchGraphics", AspectRatio -> 1, Frame -> True, 
+                    FrameStyle -> 
+                    RGBColor[
+                    0.6150173333333333, 0.25708400000000003`, 
+                    0.13945266666666667`], FrameTicks -> None, 
+                    PlotRangePadding -> None, ImageSize -> 
+                    Dynamic[{
+                    Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                    StyleBox[
+                    RowBox[{"RGBColor", "[", 
+                    RowBox[{"0.922526`", ",", "0.385626`", ",", "0.209179`"}],
+                     "]"}], NumberMarks -> False]], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
+                    With[{Typeset`box$ = EvaluationBox[]}, 
+                    If[
+                    Not[
+                    AbsoluteCurrentValue["Deployed"]], 
+                    SelectionMove[Typeset`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.922526, 0.385626, 0.209179]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[Typeset`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]]], BaseStyle -> Inherited, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], 
+                    RGBColor[0.922526, 0.385626, 0.209179], Editable -> False,
+                     Selectable -> False], ",", 
+                   RowBox[{"AbsoluteThickness", "[", "1.6`", "]"}]}], "]"}]}],
+              "}"}], ",", 
+           RowBox[{"{", 
+             RowBox[{#, ",", #2, ",", #3, ",", #4}], "}"}], ",", 
+           RowBox[{"LegendMarkers", "\[Rule]", 
+             RowBox[{"{", 
+               RowBox[{
+                 RowBox[{"{", 
+                   RowBox[{"False", ",", "Automatic"}], "}"}], ",", 
+                 RowBox[{"{", 
+                   RowBox[{"False", ",", "Automatic"}], "}"}], ",", 
+                 RowBox[{"{", 
+                   RowBox[{"False", ",", "Automatic"}], "}"}], ",", 
+                 RowBox[{"{", 
+                   RowBox[{"False", ",", "Automatic"}], "}"}]}], "}"}]}], ",", 
+           RowBox[{"Joined", "\[Rule]", 
+             RowBox[{"{", 
+               RowBox[{"True", ",", "True", ",", "True", ",", "True"}], 
+               "}"}]}], ",", 
+           RowBox[{"LabelStyle", "\[Rule]", 
+             RowBox[{"{", "}"}]}], ",", 
+           RowBox[{"LegendLayout", "\[Rule]", "\"Column\""}]}], "]"}]& ), 
+      Editable -> True], TraditionalForm], TraditionalForm]},
+  "Legended",
+  DisplayFunction->(GridBox[{{
+      TagBox[
+       ItemBox[
+        PaneBox[
+         TagBox[#, "SkipImageSizeLevel"], Alignment -> {Center, Baseline}, 
+         BaselinePosition -> Baseline], DefaultBaseStyle -> "Labeled"], 
+       "SkipImageSizeLevel"], 
+      ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+    GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Center}}}, 
+    AutoDelete -> False, GridBoxItemSize -> Automatic, 
+    BaselinePosition -> {1, 1}]& ),
+  Editable->True,
+  InterpretationFunction->(RowBox[{"Legended", "[", 
+     RowBox[{#, ",", 
+       RowBox[{"Placed", "[", 
+         RowBox[{#2, ",", "After"}], "]"}]}], "]"}]& )]], "Output",
+ CellChangeTimes->{{3.827305869112154*^9, 3.827305872469392*^9}, 
+   3.8273078041777477`*^9},
+ CellLabel->
+  "Out[177]=",ExpressionUUID->"a655350e-9149-4600-bef2-d52def5c4e02"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -1454,20 +2644,41 @@ Cell[CellGroupData[{
 Cell[757, 29, 168, 3, 67, "Section",ExpressionUUID->"5f258e46-a16e-4085-9833-9855457eab20"],
 Cell[928, 34, 245, 8, 35, "Text",ExpressionUUID->"eca1ff33-3839-45ec-af43-170bec314e31"],
 Cell[1176, 44, 316, 8, 30, "Input",ExpressionUUID->"20a2f016-17a1-4239-8d89-f31608aa651d"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[1529, 57, 461, 8, 53, "Section",ExpressionUUID->"89978763-c4de-4ce5-a548-4f68d981ea2c"],
-Cell[1993, 67, 463, 9, 35, "Text",ExpressionUUID->"0bfbaebc-d810-4257-890e-ca4cf3b49d1e"],
-Cell[2459, 78, 8669, 183, 165, "Text",ExpressionUUID->"15e9dfd4-951f-48e4-85f6-7ce26708d27d"],
-Cell[11131, 263, 8056, 164, 89, "Input",ExpressionUUID->"fede7dd7-559f-48a3-8da6-5218c93787ec"],
-Cell[19190, 429, 324, 7, 35, "Text",ExpressionUUID->"6b7f1ba0-3140-4aed-8acc-06b78305ebc3"],
-Cell[CellGroupData[{
-Cell[19539, 440, 1178, 27, 77, "Input",ExpressionUUID->"cfded990-82b4-4cb7-828c-9de481ad9c33"],
-Cell[20720, 469, 22648, 461, 260, "Output",ExpressionUUID->"37c342c9-4716-4e3b-8e3a-42848897023a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[43405, 935, 1149, 27, 77, "Input",ExpressionUUID->"925eeb58-3bad-40dc-969d-4ea6e72874be"],
-Cell[44557, 964, 22957, 464, 251, "Output",ExpressionUUID->"6e08116e-0264-4c33-b6ab-7642ef9d3863"]
+Cell[1529, 57, 535, 10, 67, "Section",ExpressionUUID->"89978763-c4de-4ce5-a548-4f68d981ea2c"],
+Cell[2067, 69, 434, 8, 58, "Text",ExpressionUUID->"ddfb67cb-948e-4e51-a3f6-b259271324e8"],
+Cell[CellGroupData[{
+Cell[2526, 81, 154, 3, 54, "Subsection",ExpressionUUID->"411b4fbd-7157-4b6e-90e6-8ce16eb2b507"],
+Cell[2683, 86, 463, 9, 35, "Text",ExpressionUUID->"0bfbaebc-d810-4257-890e-ca4cf3b49d1e"],
+Cell[3149, 97, 8176, 166, 89, "Input",ExpressionUUID->"fede7dd7-559f-48a3-8da6-5218c93787ec"],
+Cell[11328, 265, 324, 7, 35, "Text",ExpressionUUID->"6b7f1ba0-3140-4aed-8acc-06b78305ebc3"],
+Cell[CellGroupData[{
+Cell[11677, 276, 1242, 28, 77, "Input",ExpressionUUID->"cfded990-82b4-4cb7-828c-9de481ad9c33"],
+Cell[12922, 306, 22695, 462, 260, "Output",ExpressionUUID->"88941df4-4a27-49c6-8e1f-22fb61078066"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[35654, 773, 1209, 27, 77, "Input",ExpressionUUID->"925eeb58-3bad-40dc-969d-4ea6e72874be"],
+Cell[36866, 802, 23007, 465, 251, "Output",ExpressionUUID->"b088df47-6cab-4ec7-9584-ed3477cd093e"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[59922, 1273, 153, 3, 54, "Subsection",ExpressionUUID->"210a17b1-c848-4164-8eae-9273cf09e3fe"],
+Cell[60078, 1278, 7362, 154, 89, "Input",ExpressionUUID->"9f29b2c8-5cc3-4e12-ab46-11e6256bdd43"],
+Cell[67443, 1434, 234, 6, 35, "Text",ExpressionUUID->"00db395c-f4b2-4e71-bd64-39c56a4d0faf"],
+Cell[CellGroupData[{
+Cell[67702, 1444, 783, 21, 77, "Input",ExpressionUUID->"a8940f3a-1289-4816-80a7-1fbff2822f78"],
+Cell[68488, 1467, 22490, 457, 254, "Output",ExpressionUUID->"6e37c5e3-9215-469e-bc90-237f1a171960"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[91027, 1930, 228, 4, 38, "Subsection",ExpressionUUID->"16392a64-8e66-436b-8fcf-cdfc1519352e"],
+Cell[91258, 1936, 9289, 188, 89, "Input",ExpressionUUID->"bc03eba0-fb2c-40a8-87d2-a8a8ed9315da"],
+Cell[100550, 2126, 236, 6, 35, "Text",ExpressionUUID->"4282e407-dc20-4d0f-a0c5-22a25e7dad92"],
+Cell[CellGroupData[{
+Cell[100811, 2136, 771, 21, 77, "Input",ExpressionUUID->"d59d14a8-d84c-4ee4-8e07-cd32956ffce8"],
+Cell[101585, 2159, 22390, 458, 285, "Output",ExpressionUUID->"a655350e-9149-4600-bef2-d52def5c4e02"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
