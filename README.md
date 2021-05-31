@@ -20,4 +20,4 @@ Ta repozitorij vsebuje projekt v katerem analiziram umrljivost otrok zaradi mala
 ## Aplikacija 
 Za izbrano državo prikaže graf umrljivosti otrok starosti 0-4 let v letih 2000-2015.
 
-[POVEZAVA](https://www.wolframcloud.com/obj/d220f6a3-639c-4284-afb4-321fe8f55ec2)
+[POVEZAVA](https://www.wolframcloud.com/obj/9d18a9b6-c5b0-47e0-9923-1e274c636247)
