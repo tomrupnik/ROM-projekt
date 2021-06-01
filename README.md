@@ -10,8 +10,7 @@ Ta repozitorij vsebuje projekt v katerem analiziram umrljivost otrok zaradi mala
 6. Iz izbranih kontinetov za eno drzavo prikazati trend spreminjanja števila umrljivosti otrok 
 7. Podrobnejša analiza podatkov: 
       - prvih 10 držav z največjo umrljivostjo za leto 2010
-      - pogledamo ali ima BDP na prebivalca kakšno povezavo s št. umrlih
-      - prav tako preverimo ali je kakšna povezava s št. prebivalcev države
+      - pogledamo ali ima BDP na prebivalca kakšno povezavo s št. umrlih (graf)
       - pogledamo sredinsko lego teh držav (geo. širino)
       - pogledamo si pričakovano življensko dobo in mediano starosti prebivalstva teh držav
 
@@ -21,3 +20,7 @@ Ta repozitorij vsebuje projekt v katerem analiziram umrljivost otrok zaradi mala
 Za izbrano državo prikaže graf umrljivosti otrok starosti 0-4 let v letih 2000-2015.
 
 [POVEZAVA](https://www.wolframcloud.com/obj/9d18a9b6-c5b0-47e0-9923-1e274c636247)
+
+## Posnetek
+
+[POVEZAVA](https://www.dropbox.com/s/fi0gsypvhcudstw/ROM-posnetek.mov?dl=0)
